@@ -65,29 +65,29 @@
 #         node = Node(elme)
 #         if self.root.elme == -1:
 #             self.root = node
-# class Node():
+class Node():
 
-#     def __init__(self,data):
+    def __init__(self,data):
 
-#         self.left = None
-#         self.right = None
-#         self.data = data
+        self.left = None
+        self.right = None
+        self.data = data
 
-#     def __str__(self):
-#         return str(self.data)
-#     1 = Node('1')
-#     2 = Node('2')
-#     3 = Node('3')
-#     4 = Node('4')
-#     5 = Node('5')
-#     6 = Node('6')
-#     7 = Node('7')
-#     1.left = 2
-#     2.left = 3
-#     2.right = 4
-#     4.left = 5
-#     4.right = 6
-#     5.right = 7
+    def __str__(self):
+        return str(self.data)
+    1 = Node('1')
+    2 = Node('2')
+    3 = Node('3')
+    4 = Node('4')
+    5 = Node('5')
+    6 = Node('6')
+    7 = Node('7')
+    1.left = 2
+    2.left = 3
+    2.right = 4
+    4.left = 5
+    4.right = 6
+    5.right = 7
 def quicksort(sor):
     if len(sor) <=1:
         return sor
